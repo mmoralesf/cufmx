@@ -1,0 +1,331 @@
+2018-07-15 01:56:43,288 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 01:56:43,292 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 01:56:43,295 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 01:56:43,529 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 01:56:43,531 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 01:56:43,533 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 01:56:43,536 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 01:56:43,538 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 01:56:43,551 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:56:43,553 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:56:45,360 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:41: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.Bookmark doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Bookmark(TimeStampedModel):
+
+2018-07-15 01:56:45,364 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:186: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.XBlockCache doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class XBlockCache(TimeStampedModel):
+
+2018-07-15 01:56:46,323 INFO 1 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 01:56:47,185 WARNING 1 [py.warnings] worker.py:161 - /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2018-07-15 01:56:47,237 INFO 1 [celery.worker.consumer] consumer.py:479 - Connected to amqp://guest:**@rabbitmq:5672//
+2018-07-15 01:56:47,277 INFO 1 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2018-07-15 01:56:48,344 INFO 1 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2018-07-15 01:56:48,377 WARNING 1 [celery.redirected] log.py:282 - celery@edx.lms.core.default.%de84c43aa0a4 ready.
+2018-07-15 02:06:17,662 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 02:06:17,730 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 02:06:17,780 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 02:06:18,269 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 02:06:18,271 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 02:06:18,273 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 02:06:18,276 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 02:06:18,290 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 02:06:18,311 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 02:06:18,326 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 02:06:22,887 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:41: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.Bookmark doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Bookmark(TimeStampedModel):
+
+2018-07-15 02:06:22,890 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:186: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.XBlockCache doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class XBlockCache(TimeStampedModel):
+
+2018-07-15 02:06:24,541 INFO 1 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 02:06:25,933 WARNING 1 [py.warnings] worker.py:161 - /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2018-07-15 02:06:26,151 ERROR 1 [celery.worker.consumer] consumer.py:364 - consumer: Cannot connect to amqp://guest:**@rabbitmq:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2018-07-15 02:06:28,163 ERROR 1 [celery.worker.consumer] consumer.py:364 - consumer: Cannot connect to amqp://guest:**@rabbitmq:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2018-07-15 02:06:32,179 ERROR 1 [celery.worker.consumer] consumer.py:364 - consumer: Cannot connect to amqp://guest:**@rabbitmq:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2018-07-15 02:06:38,195 INFO 1 [celery.worker.consumer] consumer.py:479 - Connected to amqp://guest:**@rabbitmq:5672//
+2018-07-15 02:06:38,212 INFO 1 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2018-07-15 02:06:39,229 INFO 1 [celery.worker.consumer] consumer.py:573 - mingle: sync with 1 nodes
+2018-07-15 02:06:39,241 INFO 1 [celery.worker.consumer] consumer.py:583 - mingle: sync complete
+2018-07-15 02:06:39,263 WARNING 1 [celery.redirected] log.py:282 - celery@edx.lms.core.default.%de84c43aa0a4 ready.
+2018-07-15 03:37:58,345 INFO 1 [celery.worker.consumer] consumer.py:766 - missed heartbeat from celery@edx.cms.core.default.%cfb3ced15cf9
+2018-07-15 03:38:02,173 INFO 1 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.%cfb3ced15cf9
+2018-07-15 07:17:58,794 INFO 1 [celery.worker.strategy] strategy.py:55 - Received task: student.tasks.send_activation_email[d588740d-5af6-40d7-bc70-5301dc5bf867]
+2018-07-15 07:17:59,155 INFO 132 [edx.celery.task] tasks.py:26 - Activation Email has been sent to User moralesdeatar@gmail.com
+2018-07-15 07:17:59,180 INFO 1 [celery.worker.job] job.py:401 - Task student.tasks.send_activation_email[d588740d-5af6-40d7-bc70-5301dc5bf867] succeeded in 0.286099699999s: None
+2018-07-15 08:21:17,973 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 08:21:17,977 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 08:21:17,980 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 08:21:18,121 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 08:21:18,124 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 08:21:18,126 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 08:21:18,129 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 08:21:18,132 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 08:21:18,145 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:21:18,150 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:21:19,815 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:41: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.Bookmark doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Bookmark(TimeStampedModel):
+
+2018-07-15 08:21:19,819 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:186: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.XBlockCache doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class XBlockCache(TimeStampedModel):
+
+2018-07-15 08:21:20,845 INFO 1 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 08:21:21,269 WARNING 1 [py.warnings] worker.py:161 - /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2018-07-15 08:21:21,313 INFO 1 [celery.worker.consumer] consumer.py:479 - Connected to amqp://guest:**@rabbitmq:5672//
+2018-07-15 08:21:21,328 INFO 1 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2018-07-15 08:21:22,350 INFO 1 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2018-07-15 08:21:22,402 WARNING 1 [celery.redirected] log.py:282 - celery@edx.lms.core.default.%de84c43aa0a4 ready.
+2018-07-15 20:54:16,010 INFO 1 [celery.worker.consumer] consumer.py:766 - missed heartbeat from celery@edx.cms.core.default.%cfb3ced15cf9
+2018-07-15 20:54:20,729 INFO 1 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.%cfb3ced15cf9
+2018-07-16 00:52:59,251 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 00:52:59,259 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 00:52:59,271 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 00:52:59,692 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 00:52:59,696 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 00:52:59,701 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 00:52:59,712 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 00:52:59,720 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 00:52:59,735 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:52:59,739 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:53:02,038 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:41: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.Bookmark doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Bookmark(TimeStampedModel):
+
+2018-07-16 00:53:02,043 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:186: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.XBlockCache doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class XBlockCache(TimeStampedModel):
+
+2018-07-16 00:53:03,012 INFO 1 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 00:53:03,716 WARNING 1 [py.warnings] worker.py:161 - /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2018-07-16 00:53:03,776 INFO 1 [celery.worker.consumer] consumer.py:479 - Connected to amqp://guest:**@rabbitmq:5672//
+2018-07-16 00:53:03,791 INFO 1 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2018-07-16 00:53:04,845 INFO 1 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2018-07-16 00:53:04,900 WARNING 1 [celery.redirected] log.py:282 - celery@edx.lms.core.default.%e513a2c4ecf0 ready.
+2018-07-16 01:12:01,373 INFO 1 [celery.worker.strategy] strategy.py:55 - Received task: student.tasks.send_activation_email[5763cd25-109f-4ab9-a8e5-77b92c3c9fcc]
+2018-07-16 01:12:01,415 INFO 131 [edx.celery.task] tasks.py:26 - Activation Email has been sent to User genaulinguistics@icloud.com
+2018-07-16 01:12:01,418 INFO 1 [celery.worker.job] job.py:401 - Task student.tasks.send_activation_email[5763cd25-109f-4ab9-a8e5-77b92c3c9fcc] succeeded in 0.0360915000056s: None
+2018-07-16 01:19:32,718 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 01:19:32,730 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 01:19:32,733 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 01:19:32,898 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 01:19:32,917 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 01:19:32,920 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 01:19:32,923 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 01:19:32,927 WARNING 1 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 01:19:32,935 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 01:19:32,945 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 01:19:35,511 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:41: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.Bookmark doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Bookmark(TimeStampedModel):
+
+2018-07-16 01:19:35,517 WARNING 1 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:186: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.XBlockCache doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class XBlockCache(TimeStampedModel):
+
+2018-07-16 01:19:36,753 INFO 1 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 01:19:37,679 WARNING 1 [py.warnings] worker.py:161 - /usr/local/lib/python2.7/dist-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2018-07-16 01:19:37,782 ERROR 1 [celery.worker.consumer] consumer.py:364 - consumer: Cannot connect to amqp://guest:**@rabbitmq:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2018-07-16 01:19:39,809 ERROR 1 [celery.worker.consumer] consumer.py:364 - consumer: Cannot connect to amqp://guest:**@rabbitmq:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2018-07-16 01:19:43,879 INFO 1 [celery.worker.consumer] consumer.py:479 - Connected to amqp://guest:**@rabbitmq:5672//
+2018-07-16 01:19:43,950 INFO 1 [celery.worker.consumer] consumer.py:567 - mingle: searching for neighbors
+2018-07-16 01:19:45,176 INFO 1 [celery.worker.consumer] consumer.py:585 - mingle: all alone
+2018-07-16 01:19:45,307 WARNING 1 [celery.redirected] log.py:282 - celery@edx.lms.core.default.%e513a2c4ecf0 ready.

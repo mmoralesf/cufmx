@@ -1,0 +1,1094 @@
+2018-07-15 01:45:53,534 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 01:45:53,538 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 01:45:53,540 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 01:45:53,634 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 01:45:53,637 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 01:45:53,640 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 01:45:53,643 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 01:45:53,646 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 01:45:53,661 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 01:45:53,917 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 01:45:53,919 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 01:45:53,921 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 01:45:53,924 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 01:45:53,926 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 01:45:53,935 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:45:53,937 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:45:56,146 INFO 14 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 01:52:06,886 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 01:52:06,888 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 01:52:06,957 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 01:52:07,067 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 01:52:07,069 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 01:52:07,071 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 01:52:07,073 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 01:52:07,074 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 01:52:07,078 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:52:07,080 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:52:08,061 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:41: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.Bookmark doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Bookmark(TimeStampedModel):
+
+2018-07-15 01:52:08,063 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:186: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.XBlockCache doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class XBlockCache(TimeStampedModel):
+
+2018-07-15 01:52:08,768 INFO 88 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 01:52:11,801 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 01:52:11,804 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 01:52:11,806 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 01:52:11,854 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 01:52:11,856 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 01:52:11,858 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 01:52:11,859 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 01:52:11,861 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 01:52:11,865 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 01:52:12,030 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 01:52:12,032 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 01:52:12,033 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 01:52:12,035 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 01:52:12,037 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 01:52:12,041 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:52:12,042 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:52:13,816 INFO 212 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 01:52:22,385 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 01:52:22,388 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 01:52:22,390 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 01:52:22,460 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 01:52:22,463 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 01:52:22,466 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 01:52:22,469 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 01:52:22,471 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 01:52:22,481 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 01:52:22,689 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 01:52:22,691 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 01:52:22,693 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 01:52:22,695 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 01:52:22,698 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 01:52:22,702 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:52:22,705 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:52:24,475 INFO 357 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 01:52:33,780 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 01:52:33,785 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 01:52:33,788 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 01:52:33,871 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 01:52:33,874 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 01:52:33,877 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 01:52:33,880 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 01:52:33,882 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 01:52:33,888 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 01:52:34,233 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 01:52:34,235 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 01:52:34,239 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 01:52:34,242 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 01:52:34,245 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 01:52:34,251 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:52:34,254 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:52:36,013 INFO 484 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 01:56:44,654 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 01:56:44,664 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 01:56:44,670 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 01:56:44,775 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 01:56:44,778 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 01:56:44,780 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 01:56:44,783 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 01:56:44,786 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 01:56:44,803 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 01:56:45,166 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 01:56:45,172 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 01:56:45,174 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 01:56:45,181 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 01:56:45,183 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 01:56:45,195 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:56:45,198 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 01:56:47,974 INFO 11 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 02:06:18,546 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 02:06:18,559 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 02:06:18,568 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 02:06:18,906 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 02:06:18,923 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 02:06:18,926 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 02:06:18,929 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 02:06:18,947 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 02:06:18,977 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 02:06:19,524 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 02:06:19,526 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 02:06:19,529 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 02:06:19,532 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 02:06:19,543 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 02:06:19,561 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 02:06:19,565 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 02:06:26,418 INFO 11 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 02:20:34,283 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:16: RemovedInDjango19Warning: Model class oauth_provider.models.Nonce doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Nonce(models.Model):
+
+2018-07-15 02:20:34,289 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:26: RemovedInDjango19Warning: Model class oauth_provider.models.Scope doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Scope(models.Model):
+
+2018-07-15 02:20:34,293 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:35: RemovedInDjango19Warning: Model class oauth_provider.models.Resource doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Resource(Scope):
+
+2018-07-15 02:20:34,296 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:45: RemovedInDjango19Warning: Model class oauth_provider.models.Consumer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Consumer(models.Model):
+
+2018-07-15 02:20:34,299 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:73: RemovedInDjango19Warning: Model class oauth_provider.models.Token doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Token(models.Model):
+
+2018-07-15 03:38:08,627 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 03:38:08,639 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 03:38:08,643 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 03:38:08,788 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 03:38:08,791 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 03:38:08,795 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 03:38:08,801 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 03:38:08,806 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 03:38:08,819 WARNING 136 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 03:38:09,114 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 03:38:09,120 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 03:38:09,125 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 03:38:09,130 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 03:38:09,135 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 03:38:09,147 WARNING 136 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 03:38:09,151 WARNING 136 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 03:38:13,588 INFO 136 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 03:41:12,722 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:16: RemovedInDjango19Warning: Model class oauth_provider.models.Nonce doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Nonce(models.Model):
+
+2018-07-15 03:41:12,726 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:26: RemovedInDjango19Warning: Model class oauth_provider.models.Scope doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Scope(models.Model):
+
+2018-07-15 03:41:12,728 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:35: RemovedInDjango19Warning: Model class oauth_provider.models.Resource doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Resource(Scope):
+
+2018-07-15 03:41:12,732 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:45: RemovedInDjango19Warning: Model class oauth_provider.models.Consumer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Consumer(models.Model):
+
+2018-07-15 03:41:12,736 WARNING 136 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:73: RemovedInDjango19Warning: Model class oauth_provider.models.Token doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Token(models.Model):
+
+2018-07-15 07:18:50,290 WARNING 136 [audit] views.py:1521 - Login failed - Account not active for user mmoralesf, resending activation
+2018-07-15 08:15:52,534 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 08:15:52,548 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 08:15:52,551 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 08:15:52,773 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 08:15:52,776 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 08:15:52,780 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 08:15:52,785 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 08:15:52,790 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 08:15:52,807 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 08:15:53,058 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 08:15:53,068 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 08:15:53,073 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 08:15:53,082 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 08:15:53,092 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 08:15:53,104 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:15:53,115 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:16:00,317 INFO 11 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 08:16:06,171 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:16: RemovedInDjango19Warning: Model class oauth_provider.models.Nonce doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Nonce(models.Model):
+
+2018-07-15 08:16:06,327 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:26: RemovedInDjango19Warning: Model class oauth_provider.models.Scope doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Scope(models.Model):
+
+2018-07-15 08:16:06,337 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:35: RemovedInDjango19Warning: Model class oauth_provider.models.Resource doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Resource(Scope):
+
+2018-07-15 08:16:06,358 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:45: RemovedInDjango19Warning: Model class oauth_provider.models.Consumer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Consumer(models.Model):
+
+2018-07-15 08:16:06,364 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:73: RemovedInDjango19Warning: Model class oauth_provider.models.Token doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Token(models.Model):
+
+2018-07-15 08:21:22,439 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 08:21:22,443 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 08:21:22,445 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 08:21:22,523 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 08:21:22,526 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 08:21:22,532 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 08:21:22,536 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 08:21:22,539 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 08:21:22,554 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 08:21:22,812 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 08:21:22,815 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 08:21:22,819 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 08:21:22,822 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 08:21:22,824 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 08:21:22,834 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:21:22,837 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:21:25,288 INFO 14 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 08:27:19,981 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 08:27:19,985 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 08:27:20,070 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 08:27:20,193 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 08:27:20,195 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 08:27:20,196 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 08:27:20,198 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 08:27:20,201 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 08:27:20,206 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:27:20,208 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:27:21,568 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:41: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.Bookmark doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Bookmark(TimeStampedModel):
+
+2018-07-15 08:27:21,581 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:186: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.XBlockCache doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class XBlockCache(TimeStampedModel):
+
+2018-07-15 08:27:22,390 INFO 88 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 08:27:26,149 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 08:27:26,152 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 08:27:26,154 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 08:27:26,212 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 08:27:26,215 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 08:27:26,217 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 08:27:26,219 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 08:27:26,221 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 08:27:26,227 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 08:27:26,429 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 08:27:26,431 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 08:27:26,434 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 08:27:26,436 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 08:27:26,438 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 08:27:26,443 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:27:26,445 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:27:28,995 INFO 212 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 08:27:39,680 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 08:27:39,684 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 08:27:39,686 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 08:27:39,751 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 08:27:39,754 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 08:27:39,757 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 08:27:39,759 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 08:27:39,762 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 08:27:39,768 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 08:27:39,961 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 08:27:39,964 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 08:27:39,965 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 08:27:39,968 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 08:27:39,970 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 08:27:39,978 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:27:39,980 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:27:41,975 INFO 357 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-15 08:27:51,815 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-15 08:27:51,829 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-15 08:27:51,832 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-15 08:27:51,896 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-15 08:27:51,898 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-15 08:27:51,900 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-15 08:27:51,902 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-15 08:27:51,905 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-15 08:27:51,910 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-15 08:27:52,105 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-15 08:27:52,107 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-15 08:27:52,110 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-15 08:27:52,113 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-15 08:27:52,116 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-15 08:27:52,120 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:27:52,123 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-15 08:27:54,016 INFO 484 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 00:43:03,055 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 00:43:03,058 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 00:43:03,061 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 00:43:03,163 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-16 00:43:03,167 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-16 00:43:03,170 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-16 00:43:03,173 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-16 00:43:03,177 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-16 00:43:03,194 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-16 00:43:03,461 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 00:43:03,463 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 00:43:03,465 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 00:43:03,468 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 00:43:03,470 WARNING 14 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 00:43:03,481 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:43:03,484 WARNING 14 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:43:06,497 INFO 14 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 00:48:22,820 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 00:48:22,830 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 00:48:22,920 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 00:48:23,073 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 00:48:23,076 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 00:48:23,078 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 00:48:23,081 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 00:48:23,084 WARNING 88 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 00:48:23,090 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:48:23,093 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:48:24,603 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:41: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.Bookmark doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Bookmark(TimeStampedModel):
+
+2018-07-16 00:48:24,606 WARNING 88 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/bookmarks/models.py:186: RemovedInDjango19Warning: Model class openedx.core.djangoapps.bookmarks.models.XBlockCache doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class XBlockCache(TimeStampedModel):
+
+2018-07-16 00:48:25,488 INFO 88 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 00:48:29,068 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 00:48:29,071 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 00:48:29,073 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 00:48:29,125 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-16 00:48:29,127 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-16 00:48:29,128 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-16 00:48:29,130 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-16 00:48:29,132 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-16 00:48:29,136 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-16 00:48:29,312 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 00:48:29,314 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 00:48:29,315 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 00:48:29,317 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 00:48:29,319 WARNING 212 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 00:48:29,323 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:48:29,325 WARNING 212 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:48:31,431 INFO 212 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 00:48:40,058 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 00:48:40,062 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 00:48:40,064 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 00:48:40,124 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-16 00:48:40,127 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-16 00:48:40,130 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-16 00:48:40,133 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-16 00:48:40,136 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-16 00:48:40,142 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-16 00:48:40,338 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 00:48:40,341 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 00:48:40,344 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 00:48:40,346 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 00:48:40,349 WARNING 357 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 00:48:40,353 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:48:40,356 WARNING 357 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:48:42,584 INFO 357 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 00:48:51,456 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 00:48:51,460 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 00:48:51,462 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 00:48:51,519 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-16 00:48:51,521 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-16 00:48:51,524 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-16 00:48:51,526 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-16 00:48:51,528 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-16 00:48:51,533 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-16 00:48:51,730 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 00:48:51,732 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 00:48:51,734 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 00:48:51,736 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 00:48:51,738 WARNING 484 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 00:48:51,743 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:48:51,746 WARNING 484 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:48:53,620 INFO 484 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 00:52:57,260 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 00:52:57,289 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 00:52:57,294 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 00:52:57,458 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-16 00:52:57,473 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-16 00:52:57,478 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-16 00:52:57,482 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-16 00:52:57,487 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-16 00:52:57,543 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-16 00:52:57,983 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 00:52:58,002 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 00:52:58,008 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 00:52:58,018 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 00:52:58,057 WARNING 11 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 00:52:58,102 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:52:58,106 WARNING 11 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 00:53:02,894 INFO 11 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 01:19:48,146 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:46: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflow doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflow(TimeStampedModel, StatusModel):
+
+2018-07-16 01:19:48,158 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:608: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowStep doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowStep(models.Model):
+
+2018-07-16 01:19:48,163 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/openassessment/workflow/models.py:749: RemovedInDjango19Warning: Model class openassessment.workflow.models.AssessmentWorkflowCancellation doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class AssessmentWorkflowCancellation(models.Model):
+
+2018-07-16 01:19:48,350 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:15: RemovedInDjango19Warning: Model class milestones.models.Milestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Milestone(TimeStampedModel):
+
+2018-07-16 01:19:48,356 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:38: RemovedInDjango19Warning: Model class milestones.models.MilestoneRelationshipType doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class MilestoneRelationshipType(TimeStampedModel):
+
+2018-07-16 01:19:48,362 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:77: RemovedInDjango19Warning: Model class milestones.models.CourseMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseMilestone(TimeStampedModel):
+
+2018-07-16 01:19:48,370 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:100: RemovedInDjango19Warning: Model class milestones.models.CourseContentMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseContentMilestone(TimeStampedModel):
+
+2018-07-16 01:19:48,380 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/milestones/models.py:131: RemovedInDjango19Warning: Model class milestones.models.UserMilestone doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class UserMilestone(TimeStampedModel):
+
+2018-07-16 01:19:48,406 WARNING 10 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/self_paced/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.self_paced.models.SelfPacedConfiguration doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class SelfPacedConfiguration(ConfigurationModel):
+
+2018-07-16 01:19:48,887 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:52: RemovedInDjango19Warning: Model class edxval.models.Profile doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Profile(models.Model):
+
+2018-07-16 01:19:48,895 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:75: RemovedInDjango19Warning: Model class edxval.models.Video doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Video(models.Model):
+
+2018-07-16 01:19:48,898 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:123: RemovedInDjango19Warning: Model class edxval.models.CourseVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseVideo(models.Model, ModelFactoryWithValidation):
+
+2018-07-16 01:19:48,901 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:144: RemovedInDjango19Warning: Model class edxval.models.EncodedVideo doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class EncodedVideo(models.Model):
+
+2018-07-16 01:19:48,904 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/edxval/models.py:164: RemovedInDjango19Warning: Model class edxval.models.Subtitle doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Subtitle(models.Model):
+
+2018-07-16 01:19:48,917 WARNING 10 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:10: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.HLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class HLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 01:19:48,922 WARNING 10 [py.warnings] base.py:116 - /openedx/edx-platform/openedx/core/djangoapps/video_config/models.py:51: RemovedInDjango19Warning: Model class openedx.core.djangoapps.video_config.models.CourseHLSPlaybackEnabledFlag doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class CourseHLSPlaybackEnabledFlag(ConfigurationModel):
+
+2018-07-16 01:19:52,631 INFO 10 [dd.dogapi] dog_stats_api.py:66 - Initializing dog api to use statsd: localhost, 8125
+2018-07-16 01:54:16,726 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:16: RemovedInDjango19Warning: Model class oauth_provider.models.Nonce doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Nonce(models.Model):
+
+2018-07-16 01:54:16,734 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:26: RemovedInDjango19Warning: Model class oauth_provider.models.Scope doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Scope(models.Model):
+
+2018-07-16 01:54:16,738 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:35: RemovedInDjango19Warning: Model class oauth_provider.models.Resource doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Resource(Scope):
+
+2018-07-16 01:54:16,742 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:45: RemovedInDjango19Warning: Model class oauth_provider.models.Consumer doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Consumer(models.Model):
+
+2018-07-16 01:54:16,747 WARNING 10 [py.warnings] base.py:116 - /usr/local/lib/python2.7/dist-packages/oauth_provider/models.py:73: RemovedInDjango19Warning: Model class oauth_provider.models.Token doesn't declare an explicit app_label and either isn't in an application in INSTALLED_APPS or else was imported before its application was loaded. This will no longer be supported in Django 1.9.
+  class Token(models.Model):
+
+2018-07-16 01:55:34,763 INFO 10 [openedx.core.djangoapps.content.course_overviews.models] models.py:150 - Creating course overview for course-v1:CUFMx+MA161+FALL-18.
+2018-07-16 01:55:34,856 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e7cb2d320> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:34,858 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e614499b0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:34,859 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _update_block_structure_on_course_publish at 0x7f8e6144d5f0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:34,860 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455488> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:34,862 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455938> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:34,863 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7f8e61455a28> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:34,864 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e614558c0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:37,385 INFO 10 [openedx.core.djangoapps.content.course_overviews.models] models.py:147 - Updating course overview for course-v1:CUFMx+MA161+FALL-18.
+2018-07-16 01:55:37,422 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e7cb2d320> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:37,423 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e614499b0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:37,424 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _update_block_structure_on_course_publish at 0x7f8e6144d5f0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:37,425 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455488> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:37,426 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455938> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:37,428 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7f8e61455a28> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:37,429 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e614558c0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,053 INFO 10 [openedx.core.djangoapps.content.course_overviews.models] models.py:147 - Updating course overview for course-v1:CUFMx+MA161+FALL-18.
+2018-07-16 01:55:50,083 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e7cb2d320> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,084 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e614499b0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,085 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _update_block_structure_on_course_publish at 0x7f8e6144d5f0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,086 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455488> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,087 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455938> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,087 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7f8e61455a28> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,088 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e614558c0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,173 INFO 10 [openedx.core.djangoapps.content.course_overviews.models] models.py:147 - Updating course overview for course-v1:CUFMx+MA161+FALL-18.
+2018-07-16 01:55:50,201 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e7cb2d320> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,202 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e614499b0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,203 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _update_block_structure_on_course_publish at 0x7f8e6144d5f0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,204 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455488> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,205 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455938> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,206 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7f8e61455a28> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:50,206 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e614558c0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:51,368 INFO 10 [openedx.core.djangoapps.content.course_overviews.models] models.py:147 - Updating course overview for course-v1:CUFMx+MA161+FALL-18.
+2018-07-16 01:55:51,398 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e7cb2d320> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:51,399 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function listen_for_course_publish at 0x7f8e614499b0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:51,400 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _update_block_structure_on_course_publish at 0x7f8e6144d5f0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:51,401 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455488> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:51,402 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e61455938> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:51,403 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function trigger_update_xblocks_cache_task at 0x7f8e61455a28> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None
+2018-07-16 01:55:51,404 INFO 10 [xmodule.modulestore.django] django.py:207 - Sent course_published signal to <function _listen_for_course_publish at 0x7f8e614558c0> with kwargs {'course_key': CourseLocator(u'CUFMx', u'MA161', u'FALL-18', None, None)}. Response was: None

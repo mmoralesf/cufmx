@@ -41,7 +41,8 @@ services:
     image: nginx:1.13
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "8000:8000"
+      - "8001:8001"
     volumes:
       - ./config/nginx:/etc/nginx/conf.d/
       - ./data/lms:/openedx/data/lms:ro
@@ -168,4 +169,18 @@ services:
     # Run 12 workers per queue
     command: ./manage.py run_consumer 12
     depends_on:
+      - mysql
+
+  ############  Notes: annotation server 
+  edx_notes_api:
+    image: edxops/notes:latest
+    build: 
+      context: ./openedx
+    ports: 
+      - "18120:18120" 
+    restart: unless-stopped
+    command: bash -c 'source /edx/app/edx_notes_api/edx_notes_api_env && while true; do python /edx/app/edx_notes_api/manage.py runserver 0.0.0.0:18120 --settings notesserver.settings.devstack; sleep 2; done'
+    depends_on:
+      - lms
+      - elasticsearch
       - mysql
